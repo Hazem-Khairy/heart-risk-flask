@@ -9,7 +9,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Checking python syntax...'
-                sh 'python -m py_compile app.py'
+                sh 'python3 -m py_compile app.py'
             }
         }
         stage('Build Docker Image') {
