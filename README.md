@@ -1,4 +1,4 @@
-# 🫀 Heart Risk Prediction App
+#  Heart Risk Prediction App
 
 A machine learning web application that predicts heart disease risk levels using a **LightGBM (LGBM)** model, deployed with **Flask** and containerized with **Docker**. CI/CD is handled via **Jenkins**, and the app is live on **Hugging Face Spaces**.
 
